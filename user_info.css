@@ -1,0 +1,139 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 1.25em 1.25em;
+  align-items: center;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  margin-right: 1.25em;
+  align-items: center;
+}
+
+img {
+  width: 7.812em;
+  height: 6.25em;
+  margin-right: 12.5em; /* adjusted value */
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav a, nav img {
+  color: white;
+  text-decoration: none;
+  margin-left: 6.25em; /* adjusted value */
+  align-items: center;
+  justify-content: center;
+}
+
+#button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3.125em; /* adjusted value */
+}
+
+input[type="text"], input[type="password"] {
+  width: 100%;
+  height: 1.25em; /* adjusted value */
+  margin-bottom: 0.625em; /* adjusted value */
+  padding: 0.3125em; /* adjusted value */
+  border: 0.0625em solid #ccc;
+  border-radius: 0.125em; /* adjusted value */
+  font-size: 0.875em; /* adjusted value */
+  box-sizing: border-box;
+}
+
+form {
+  align-items: center;
+  justify-content: center;
+}
+
+input[type="submit"] {
+  width: 100%;
+  height: 1.25em; /* adjusted value */
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 0.3125em; /* adjusted value */
+  border: none;
+  border-radius: 0.125em; /* adjusted value */
+  cursor: pointer;
+  font-size: 0.875em; /* adjusted value */
+  box-sizing: border-box;
+}
+
+input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+.disconnect-form input[type="submit"] {
+  background-color: #4CAF50;
+}
+
+.disconnect-form input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 12.5em; /* adjusted value */
+  margin: 0 auto;
+}
+
+form input[type="text"],
+form input[type="password"] {
+  width: 100%;
+  margin-bottom: 0.625em; /* adjusted value */
+}
+
+form input[type="submit"] {
+  width: 100%;
+  margin-top: 0.625em; /* adjusted value */
+}
+
+/* Responsive design for iPhone 14 screen size */
+@media (max-width: 24.375em) {
+  header {
+    padding: 0.46875em 0.9375em; /* adjusted em values for iPhone 14 screen size */
+  }
+
+  header a {
+    margin-right: 0.3125em; /* adjusted em values for iPhone 14 screen size */
+    margin-bottom: 0.3125em; /* adjusted em values for iPhone 14 screen size */
+  }
+
+  #button-container {
+    margin-top: 1.875em; /* adjusted em values for iPhone 14 screen size */
+  }
+
+  form {
+    max-width: 100%;
+  }
+
+  input[type="text"], input[type="password"] {
+    width: 100%;
+    margin-bottom: 0.3125em; /* adjusted em values for iPhone 14 screen size */
+  }
+
+  input[type="submit"] {
+    width: 100%;
+    margin-top: 0.3125em; /* adjusted em values for iPhone 14 screen size */
+  }
+}
