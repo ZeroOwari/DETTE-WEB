@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Home page of Bibliotheque, a book library">
+    <meta name="keywords" content="books, library, bibliotheque">
+    <meta property="og:title" content="Bibliotheque - Home Page">
+    <meta property="og:description" content="Explore our book collection">
+    <meta property="og:image" content="assets/logo.png">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Home Page Bibliotheque</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div id="nav_div">
+                <img src ="assets/logo.png" alt="logo">
+                <a href="index.html"> Accueil </a>
+                <a id="connexion"> </a>
+            </div>
+        </nav>
+    </header>
+    <div id="container">
+        <div id="filter">
+            <h2>Filtres</h2>
+            <label for="author">Auteur:</label>
+            <input type="text" id="author"><br>
+            <label for="title">Titre:</label>
+            <input type="text" id="title"><br>
+            <label for="genre">Genre:</label>
+            <select id="genre">
+                <option value=""> Null</option>
+            </select><br>
+            <button id="search">Rechercher</button>
+        </div>
+        <div class="book-list">
+            <ul id="book-list"></ul>
+        </div>
+    </div>
+</body>
+</html>
+<script src="js/script_selected_genre.js">     </script>
+<script src="js/script_display_book.js">    </script>
