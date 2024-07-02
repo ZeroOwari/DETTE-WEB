@@ -6,6 +6,13 @@
     <link rel="stylesheet" href="css/user_info.css">
     <title>Document</title>
 </head>
+<style>
+  #nav_div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+</style>
 <body>
     <header>
       <nav>
@@ -21,12 +28,12 @@
           <input type="text" name="nom" id="nom" placeholder="Nom" required>
           <input type="text" name="prenom" id="prenom" placeholder="Prenom" required>
           <input type="text" name="email" id="email" placeholder="Email" required>
-          <input type="password" name="password" id="password" placeholder="Password" required>
+          <input type="password" name="password" id="password" placeholder="Mot de passe" required>
           <br>
           <input type="submit" value="modifier" class="disconnect-form">
         </form>
         <form action="includes/disconnect.php" method="post" class="disconnect-form">
-          <input type="submit" value="disconnect">
+          <input type="submit" value="déconnecter">
         </form>
       </div>
     <script src="js/script_get_user.js"></script>
