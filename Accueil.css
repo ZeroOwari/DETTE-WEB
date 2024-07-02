@@ -39,7 +39,7 @@ nav a , nav img{
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 3.125em;
+  margin-top: 17em;
 }
 
 .input-field {
@@ -61,7 +61,7 @@ form {
 input[type="submit"], a.disconnect-form {
   width: 9.375em;
   height: 2.5em;
-  background-color: #4CAF50;
+  background-color: rgb(69, 69, 235);
   color: #fff;
   padding: 0.625em;
   border: none;
@@ -72,15 +72,15 @@ input[type="submit"], a.disconnect-form {
 }
 
 input[type="submit"]:hover, a.disconnect-form:hover {
-  background-color: #3e8e41;
+  background-color: rgb(69, 69, 235);
 }
 
 .disconnect-form input[type="submit"] {
-  background-color: #4CAF50;
+  background-color: rgb(69, 69, 235);
 }
 
 .disconnect-form input[type="submit"]:hover {
-  background-color: #3e8e41;
+  background-color: rgb(69, 69, 235);
 }
 
 form {
