@@ -3,10 +3,11 @@ body {
   margin: 0;
   padding: 0;
   align-items: center;
+  justify-content: center;
 }
 
 header {
-  background-color: #333;
+  background-color: rgb(69, 69, 235);
   color: white;
   display: flex;
   justify-content: center;
@@ -24,7 +25,7 @@ header a {
 img {
   width: 7.812em;
   height: 6.25em;
-  margin-right: 12.5em; /* adjusted value */
+  margin-right: 12.5em;
 }
 
 nav {
@@ -35,7 +36,7 @@ nav {
 nav a, nav img {
   color: white;
   text-decoration: none;
-  margin-left: 6.25em; /* adjusted value */
+  margin-left: 6.25em;
   align-items: center;
   justify-content: center;
 }
@@ -44,17 +45,24 @@ nav a, nav img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 3.125em; /* adjusted value */
+  margin-top: 3.125em;
+  width: 100%; /* Ajustez selon vos besoins */
+  max-width: 16em; /* Ajustez selon vos besoins */
+  padding: 1em; /* Ajoute un peu de padding pour l'espacement intérieur */
+  background-color: #f5f5f5; /* Optionnel : ajoute une couleur de fond */
+  border: 1px solid #ccc; /* Optionnel : ajoute une bordure */
+  border-radius: 0.5em; /* Optionnel : ajoute des coins arrondis */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optionnel : ajoute une ombre pour l'effet visuel */
 }
 
 input[type="text"], input[type="password"] {
   width: 100%;
-  height: 1.25em; /* adjusted value */
-  margin-bottom: 0.625em; /* adjusted value */
-  padding: 0.3125em; /* adjusted value */
+  height: 1.25em;
+  margin-bottom: 0.625em;
+  padding: 0.3125em;
   border: 0.0625em solid #ccc;
-  border-radius: 0.125em; /* adjusted value */
-  font-size: 0.875em; /* adjusted value */
+  border-radius: 0.125em;
+  font-size: 0.875em;
   box-sizing: border-box;
 }
 
@@ -65,27 +73,27 @@ form {
 
 input[type="submit"] {
   width: 100%;
-  height: 1.25em; /* adjusted value */
-  background-color: #4CAF50;
+  height: 1.25em;
+  background-color: rgb(69, 69, 235);
   color: #fff;
-  padding: 0.3125em; /* adjusted value */
+  padding: 0.3125em;
   border: none;
-  border-radius: 0.125em; /* adjusted value */
+  border-radius: 0.125em;
   cursor: pointer;
-  font-size: 0.875em; /* adjusted value */
+  font-size: 0.875em;
   box-sizing: border-box;
 }
 
 input[type="submit"]:hover {
-  background-color: #3e8e41;
+  background-color: rgb(69, 69, 235);
 }
 
 .disconnect-form input[type="submit"] {
-  background-color: #4CAF50;
+  background-color: rgb(69, 69, 235);
 }
 
 .disconnect-form input[type="submit"]:hover {
-  background-color: #3e8e41;
+  background-color: rgb(69, 69, 235);
 }
 
 form {
@@ -93,34 +101,33 @@ form {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  max-width: 12.5em; /* adjusted value */
+  max-width: 12.5em;
   margin: 0 auto;
 }
 
 form input[type="text"],
 form input[type="password"] {
   width: 100%;
-  margin-bottom: 0.625em; /* adjusted value */
+  margin-bottom: 0.625em;
 }
 
 form input[type="submit"] {
   width: 100%;
-  margin-top: 0.625em; /* adjusted value */
+  margin-top: 0.625em;
 }
 
-/* Responsive design for iPhone 14 screen size */
 @media (max-width: 24.375em) {
   header {
-    padding: 0.46875em 0.9375em; /* adjusted em values for iPhone 14 screen size */
+    padding: 0.46875em 0.9375em;
   }
 
   header a {
-    margin-right: 0.3125em; /* adjusted em values for iPhone 14 screen size */
-    margin-bottom: 0.3125em; /* adjusted em values for iPhone 14 screen size */
+    margin-right: 0.3125em;
+    margin-bottom: 0.3125em;
   }
 
   #button-container {
-    margin-top: 1.875em; /* adjusted em values for iPhone 14 screen size */
+    margin-top: 1.875em;
   }
 
   form {
@@ -129,11 +136,11 @@ form input[type="submit"] {
 
   input[type="text"], input[type="password"] {
     width: 100%;
-    margin-bottom: 0.3125em; /* adjusted em values for iPhone 14 screen size */
+    margin-bottom: 0.3125em;
   }
 
   input[type="submit"] {
     width: 100%;
-    margin-top: 0.3125em; /* adjusted em values for iPhone 14 screen size */
+    margin-top: 0.3125em;
   }
 }
